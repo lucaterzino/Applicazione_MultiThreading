@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:App_MultiThreading"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFB272FF">
+        <Label x:Name="Lbl_Risultato" Content="" HorizontalAlignment="Left" Margin="75,190,0,0" VerticalAlignment="Top" Width="195" Height="31" Background="White"/>
+        <Button x:Name="Btn_Task" Content="Click" HorizontalAlignment="Left" Margin="35,278,0,0" VerticalAlignment="Top" Width="275" Height="37" Click="Btn_Task_Click" Background="#FF1FF532"/>
+        <Button x:Name="Btn_Conta" Content="" HorizontalAlignment="Left" Margin="560,278,0,0" VerticalAlignment="Top" Width="200" Height="37" Click="Btn_Conta_Click"/>
+        <Label x:Name="Lbl_Conteggio" Content="" HorizontalAlignment="Left" Margin="580,190,0,0" VerticalAlignment="Top" Height="31" Width="160" Background="White"/>
+
     </Grid>
 </Window>
